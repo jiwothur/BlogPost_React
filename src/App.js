@@ -20,7 +20,7 @@ class App extends React.Component{
       <Hero />
       <Route path ="/" exact={true} component={Home}/>
       <Route path="/contact-us" component={ContactUS} />
-      <Route path="/post" component={Post} />
+      <Route path="/post/:postId" component={Post} />
 
       </div>
       </Router>
